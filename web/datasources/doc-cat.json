@@ -1,0 +1,680 @@
+{
+ "name": "categories",
+ "children": [
+  {
+   "name": "Category-0",
+   "children": [
+    {
+     "name": "getWeather",
+     "children": [
+      {"name": "Category-0", "size": 400},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 150},
+      {"name": "Category-8", "size": 70},
+      {"name": "Category-16", "size": 100}
+     ]
+    },
+    {
+     "name": "getCurrency",
+     "children": [
+      {"name": "Category-30", "size": 500},
+      {"name": "Category-84", "size": 400},
+      {"name": "Category-65", "size": 50},
+      {"name": "Category-15", "size": 25},
+      {"name": "Category-26", "size": 25}
+     ]
+    },
+    {
+     "name": "getLocation",
+     "children": [
+      {"name": "Category-0", "size": 600},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 50},
+      {"name": "Category-8", "size": 10},
+      {"name": "Category-16", "size": 140}
+     ]
+    },
+    {
+     "name": "getStatus",
+     "children": [
+      {"name": "Category-0", "size": 400},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 150},
+      {"name": "Category-8", "size": 70},
+      {"name": "Category-16", "size": 100}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Category-1",
+   "children": [
+    {
+     "name": "getWeather",
+     "children": [
+      {"name": "Category-0", "size": 400},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 150},
+      {"name": "Category-8", "size": 70},
+      {"name": "Category-16", "size": 100}
+     ]
+    },
+    {
+     "name": "getCurrency",
+     "children": [
+      {"name": "Category-30", "size": 500},
+      {"name": "Category-84", "size": 400},
+      {"name": "Category-65", "size": 50},
+      {"name": "Category-15", "size": 25},
+      {"name": "Category-26", "size": 25}
+     ]
+    },
+    {
+     "name": "getLocation",
+     "children": [
+      {"name": "Category-0", "size": 600},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 50},
+      {"name": "Category-8", "size": 10},
+      {"name": "Category-16", "size": 140}
+     ]
+    },
+    {
+     "name": "getStatus",
+     "children": [
+      {"name": "Category-0", "size": 400},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 150},
+      {"name": "Category-8", "size": 70},
+      {"name": "Category-16", "size": 100}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Category-2",
+   "children": [
+    {
+     "name": "getWeather",
+     "children": [
+      {"name": "Category-0", "size": 400},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 150},
+      {"name": "Category-8", "size": 70},
+      {"name": "Category-16", "size": 100}
+     ]
+    },
+    {
+     "name": "getCurrency",
+     "children": [
+      {"name": "Category-30", "size": 500},
+      {"name": "Category-84", "size": 400},
+      {"name": "Category-65", "size": 50},
+      {"name": "Category-15", "size": 25},
+      {"name": "Category-26", "size": 25}
+     ]
+    },
+    {
+     "name": "getLocation",
+     "children": [
+      {"name": "Category-0", "size": 600},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 50},
+      {"name": "Category-8", "size": 10},
+      {"name": "Category-16", "size": 140}
+     ]
+    },
+    {
+     "name": "getStatus",
+     "children": [
+      {"name": "Category-0", "size": 400},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 150},
+      {"name": "Category-8", "size": 70},
+      {"name": "Category-16", "size": 100}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Category-3",
+   "children": [
+    {
+     "name": "getWeather",
+     "children": [
+      {"name": "Category-0", "size": 400},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 150},
+      {"name": "Category-8", "size": 70},
+      {"name": "Category-16", "size": 100}
+     ]
+    },
+    {
+     "name": "getCurrency",
+     "children": [
+      {"name": "Category-30", "size": 500},
+      {"name": "Category-84", "size": 400},
+      {"name": "Category-65", "size": 50},
+      {"name": "Category-15", "size": 25},
+      {"name": "Category-26", "size": 25}
+     ]
+    },
+    {
+     "name": "getLocation",
+     "children": [
+      {"name": "Category-0", "size": 600},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 50},
+      {"name": "Category-8", "size": 10},
+      {"name": "Category-16", "size": 140}
+     ]
+    },
+    {
+     "name": "getStatus",
+     "children": [
+      {"name": "Category-0", "size": 400},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 150},
+      {"name": "Category-8", "size": 70},
+      {"name": "Category-16", "size": 100}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Category-4",
+   "children": [
+    {
+     "name": "getWeather",
+     "children": [
+      {"name": "Category-0", "size": 400},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 150},
+      {"name": "Category-8", "size": 70},
+      {"name": "Category-16", "size": 100}
+     ]
+    },
+    {
+     "name": "getCurrency",
+     "children": [
+      {"name": "Category-30", "size": 500},
+      {"name": "Category-84", "size": 400},
+      {"name": "Category-65", "size": 50},
+      {"name": "Category-15", "size": 25},
+      {"name": "Category-26", "size": 25}
+     ]
+    },
+    {
+     "name": "getLocation",
+     "children": [
+      {"name": "Category-0", "size": 600},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 50},
+      {"name": "Category-8", "size": 10},
+      {"name": "Category-16", "size": 140}
+     ]
+    },
+    {
+     "name": "getStatus",
+     "children": [
+      {"name": "Category-0", "size": 400},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 150},
+      {"name": "Category-8", "size": 70},
+      {"name": "Category-16", "size": 100}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Category-5",
+   "children": [
+    {
+     "name": "getWeather",
+     "children": [
+      {"name": "Category-0", "size": 400},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 150},
+      {"name": "Category-8", "size": 70},
+      {"name": "Category-16", "size": 100}
+     ]
+    },
+    {
+     "name": "getCurrency",
+     "children": [
+      {"name": "Category-30", "size": 500},
+      {"name": "Category-84", "size": 400},
+      {"name": "Category-65", "size": 50},
+      {"name": "Category-15", "size": 25},
+      {"name": "Category-26", "size": 25}
+     ]
+    },
+    {
+     "name": "getLocation",
+     "children": [
+      {"name": "Category-0", "size": 600},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 50},
+      {"name": "Category-8", "size": 10},
+      {"name": "Category-16", "size": 140}
+     ]
+    },
+    {
+     "name": "getStatus",
+     "children": [
+      {"name": "Category-0", "size": 400},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 150},
+      {"name": "Category-8", "size": 70},
+      {"name": "Category-16", "size": 100}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Category-6",
+   "children": [
+    {
+     "name": "getWeather",
+     "children": [
+      {"name": "Category-0", "size": 400},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 150},
+      {"name": "Category-8", "size": 70},
+      {"name": "Category-16", "size": 100}
+     ]
+    },
+    {
+     "name": "getCurrency",
+     "children": [
+      {"name": "Category-30", "size": 500},
+      {"name": "Category-84", "size": 400},
+      {"name": "Category-65", "size": 50},
+      {"name": "Category-15", "size": 25},
+      {"name": "Category-26", "size": 25}
+     ]
+    },
+    {
+     "name": "getLocation",
+     "children": [
+      {"name": "Category-0", "size": 600},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 50},
+      {"name": "Category-8", "size": 10},
+      {"name": "Category-16", "size": 140}
+     ]
+    },
+    {
+     "name": "getStatus",
+     "children": [
+      {"name": "Category-0", "size": 400},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 150},
+      {"name": "Category-8", "size": 70},
+      {"name": "Category-16", "size": 100}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Category-7",
+   "children": [
+    {
+     "name": "getWeather",
+     "children": [
+      {"name": "Category-0", "size": 400},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 150},
+      {"name": "Category-8", "size": 70},
+      {"name": "Category-16", "size": 100}
+     ]
+    },
+    {
+     "name": "getCurrency",
+     "children": [
+      {"name": "Category-30", "size": 500},
+      {"name": "Category-84", "size": 400},
+      {"name": "Category-65", "size": 50},
+      {"name": "Category-15", "size": 25},
+      {"name": "Category-26", "size": 25}
+     ]
+    },
+    {
+     "name": "getLocation",
+     "children": [
+      {"name": "Category-0", "size": 600},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 50},
+      {"name": "Category-8", "size": 10},
+      {"name": "Category-16", "size": 140}
+     ]
+    },
+    {
+     "name": "getStatus",
+     "children": [
+      {"name": "Category-0", "size": 400},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 150},
+      {"name": "Category-8", "size": 70},
+      {"name": "Category-16", "size": 100}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Category-8",
+   "children": [
+    {
+     "name": "getWeather",
+     "children": [
+      {"name": "Category-0", "size": 400},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 150},
+      {"name": "Category-8", "size": 70},
+      {"name": "Category-16", "size": 100}
+     ]
+    },
+    {
+     "name": "getCurrency",
+     "children": [
+      {"name": "Category-30", "size": 500},
+      {"name": "Category-84", "size": 400},
+      {"name": "Category-65", "size": 50},
+      {"name": "Category-15", "size": 25},
+      {"name": "Category-26", "size": 25}
+     ]
+    },
+    {
+     "name": "getLocation",
+     "children": [
+      {"name": "Category-0", "size": 600},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 50},
+      {"name": "Category-8", "size": 10},
+      {"name": "Category-16", "size": 140}
+     ]
+    },
+    {
+     "name": "getStatus",
+     "children": [
+      {"name": "Category-0", "size": 400},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 150},
+      {"name": "Category-8", "size": 70},
+      {"name": "Category-16", "size": 100}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Category-9",
+   "children": [
+    {
+     "name": "getWeather",
+     "children": [
+      {"name": "Category-0", "size": 400},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 150},
+      {"name": "Category-8", "size": 70},
+      {"name": "Category-16", "size": 100}
+     ]
+    },
+    {
+     "name": "getCurrency",
+     "children": [
+      {"name": "Category-30", "size": 500},
+      {"name": "Category-84", "size": 400},
+      {"name": "Category-65", "size": 50},
+      {"name": "Category-15", "size": 25},
+      {"name": "Category-26", "size": 25}
+     ]
+    },
+    {
+     "name": "getLocation",
+     "children": [
+      {"name": "Category-0", "size": 600},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 50},
+      {"name": "Category-8", "size": 10},
+      {"name": "Category-16", "size": 140}
+     ]
+    },
+    {
+     "name": "getStatus",
+     "children": [
+      {"name": "Category-0", "size": 400},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 150},
+      {"name": "Category-8", "size": 70},
+      {"name": "Category-16", "size": 100}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Category-10",
+   "children": [
+    {
+     "name": "getWeather",
+     "children": [
+      {"name": "Category-0", "size": 400},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 150},
+      {"name": "Category-8", "size": 70},
+      {"name": "Category-16", "size": 100}
+     ]
+    },
+    {
+     "name": "getCurrency",
+     "children": [
+      {"name": "Category-30", "size": 500},
+      {"name": "Category-84", "size": 400},
+      {"name": "Category-65", "size": 50},
+      {"name": "Category-15", "size": 25},
+      {"name": "Category-26", "size": 25}
+     ]
+    },
+    {
+     "name": "getLocation",
+     "children": [
+      {"name": "Category-0", "size": 600},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 50},
+      {"name": "Category-8", "size": 10},
+      {"name": "Category-16", "size": 140}
+     ]
+    },
+    {
+     "name": "getStatus",
+     "children": [
+      {"name": "Category-0", "size": 400},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 150},
+      {"name": "Category-8", "size": 70},
+      {"name": "Category-16", "size": 100}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Category-11",
+   "children": [
+    {
+     "name": "getWeather",
+     "children": [
+      {"name": "Category-0", "size": 400},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 150},
+      {"name": "Category-8", "size": 70},
+      {"name": "Category-16", "size": 100}
+     ]
+    },
+    {
+     "name": "getCurrency",
+     "children": [
+      {"name": "Category-30", "size": 500},
+      {"name": "Category-84", "size": 400},
+      {"name": "Category-65", "size": 50},
+      {"name": "Category-15", "size": 25},
+      {"name": "Category-26", "size": 25}
+     ]
+    },
+    {
+     "name": "getLocation",
+     "children": [
+      {"name": "Category-0", "size": 600},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 50},
+      {"name": "Category-8", "size": 10},
+      {"name": "Category-16", "size": 140}
+     ]
+    },
+    {
+     "name": "getStatus",
+     "children": [
+      {"name": "Category-0", "size": 400},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 150},
+      {"name": "Category-8", "size": 70},
+      {"name": "Category-16", "size": 100}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Category-12",
+   "children": [
+    {
+     "name": "getWeather",
+     "children": [
+      {"name": "Category-0", "size": 400},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 150},
+      {"name": "Category-8", "size": 70},
+      {"name": "Category-16", "size": 100}
+     ]
+    },
+    {
+     "name": "getCurrency",
+     "children": [
+      {"name": "Category-30", "size": 500},
+      {"name": "Category-84", "size": 400},
+      {"name": "Category-65", "size": 50},
+      {"name": "Category-15", "size": 25},
+      {"name": "Category-26", "size": 25}
+     ]
+    },
+    {
+     "name": "getLocation",
+     "children": [
+      {"name": "Category-0", "size": 600},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 50},
+      {"name": "Category-8", "size": 10},
+      {"name": "Category-16", "size": 140}
+     ]
+    },
+    {
+     "name": "getStatus",
+     "children": [
+      {"name": "Category-0", "size": 400},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 150},
+      {"name": "Category-8", "size": 70},
+      {"name": "Category-16", "size": 100}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Category-13",
+   "children": [
+    {
+     "name": "getWeather",
+     "children": [
+      {"name": "Category-0", "size": 400},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 150},
+      {"name": "Category-8", "size": 70},
+      {"name": "Category-16", "size": 100}
+     ]
+    },
+    {
+     "name": "getCurrency",
+     "children": [
+      {"name": "Category-30", "size": 500},
+      {"name": "Category-84", "size": 400},
+      {"name": "Category-65", "size": 50},
+      {"name": "Category-15", "size": 25},
+      {"name": "Category-26", "size": 25}
+     ]
+    },
+    {
+     "name": "getLocation",
+     "children": [
+      {"name": "Category-0", "size": 600},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 50},
+      {"name": "Category-8", "size": 10},
+      {"name": "Category-16", "size": 140}
+     ]
+    },
+    {
+     "name": "getStatus",
+     "children": [
+      {"name": "Category-0", "size": 400},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 150},
+      {"name": "Category-8", "size": 70},
+      {"name": "Category-16", "size": 100}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Category-14",
+   "children": [
+    {
+     "name": "getWeather",
+     "children": [
+      {"name": "Category-0", "size": 400},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 150},
+      {"name": "Category-8", "size": 70},
+      {"name": "Category-16", "size": 100}
+     ]
+    },
+    {
+     "name": "getCurrency",
+     "children": [
+      {"name": "Category-30", "size": 500},
+      {"name": "Category-84", "size": 400},
+      {"name": "Category-65", "size": 50},
+      {"name": "Category-15", "size": 25},
+      {"name": "Category-26", "size": 25}
+     ]
+    },
+    {
+     "name": "getLocation",
+     "children": [
+      {"name": "Category-0", "size": 600},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 50},
+      {"name": "Category-8", "size": 10},
+      {"name": "Category-16", "size": 140}
+     ]
+    },
+    {
+     "name": "getStatus",
+     "children": [
+      {"name": "Category-0", "size": 400},
+      {"name": "Category-23", "size": 200},
+      {"name": "Category-5", "size": 150},
+      {"name": "Category-8", "size": 70},
+      {"name": "Category-16", "size": 100}
+     ]
+    }
+   ]
+  }
+ ]
+}
