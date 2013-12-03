@@ -73,7 +73,7 @@
                     .append("g")
                     .attr("transform", "translate(" + margin + "," + margin + ")");
 
-            d3.json("datasources/doc-cat.json", function(error, root) {
+            d3.json("datasources/per-document-topics.json", function(error, root) {
                 var focus = root,
                         nodes = pack.nodes(root);
 

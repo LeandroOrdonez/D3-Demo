@@ -50,7 +50,7 @@
                     .append("g")
                     .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
 
-            d3.json("datasources/doc-cat.json", function(error, root) {
+            d3.json("datasources/per-document-topics.json", function(error, root) {
                 var nodes = tree.nodes(root),
                         links = tree.links(nodes);
 
