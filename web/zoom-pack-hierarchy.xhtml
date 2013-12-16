@@ -3,7 +3,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://xmlns.jcp.org/jsf/html">
     <h:head>
-        <title>Facelet Title</title>
+        <title>Zoomable circle packing view</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <style>
 
             .node {
@@ -24,6 +25,11 @@
                 fill: white;
             }
 
+            .node--leaf:hover {
+                stroke: #000;
+                stroke-width: 1.5px;
+            }
+
             .label {
                 font: 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
                 text-anchor: middle;
@@ -31,12 +37,22 @@
             }
 
             .label,
-            .node--root,
-            .node--leaf {
+            .node--root/*,
+            .node--leaf*/ {
                 pointer-events: none;
             }
 
         </style>
+        <script>
+            jQuery.fn.d3Click = function() {
+                this.each(function(i, e) {
+                    var evt = document.createEvent("MouseEvents");
+                    evt.initMouseEvent("click", true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
+
+                    e.dispatchEvent(evt);
+                });
+            };
+        </script>
     </h:head>
     <h:body>
         <h:form>
@@ -44,7 +60,7 @@
         </h:form>
         <script src="http://d3js.org/d3.v3.min.js"></script>
         <script>
-
+            //<![CDATA[
             var margin = 10,
                     outerDiameter = 960,
                     innerDiameter = outerDiameter - margin - margin;
@@ -65,7 +81,7 @@
                     .size([innerDiameter, innerDiameter])
                     .value(function(d) {
                 return d.size;
-            })
+            });
 
             var svg = d3.select("body").append("svg")
                     .attr("width", outerDiameter)
@@ -83,6 +99,12 @@
                         .attr("class", function(d) {
                     return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root";
                 })
+                        .attr("id", function(d) {
+                    if (d.depth !== 3) {
+                        return d.name;
+                    }
+                    ;
+                })
                         .attr("transform", function(d) {
                     return "translate(" + d.x + "," + d.y + ")";
                 })
@@ -93,9 +115,18 @@
                     return d.children ? color(d.depth) : null;
                 })
                         .on("click", function(d) {
-                    return zoom(focus == d ? root : d);
+                    if (d.depth === 3) {
+                        var sel = "#" + d.name;
+                        //console.log(sel);
+                        
+                        zoom(root);
+                        return $(sel).d3Click();
+                        //return zoom(d3.select('"' + sel + '"'));
+                        //return zoom(d3.select(sel));
+                    } else {
+                        return zoom(focus === d ? root : d);
+                    }
                 });
-
                 svg.append("g").selectAll("text")
                         .data(nodes)
                         .enter().append("text")
@@ -143,7 +174,7 @@
 
             d3.select(self.frameElement).style("height", outerDiameter + "px");
 
-
+            //]]>
         </script>
     </h:body>
 </html>
