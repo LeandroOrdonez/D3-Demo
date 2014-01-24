@@ -11,4 +11,8 @@ build.xml
 manifest.xml
 *.txt
 *.txt~
-/src/wsdl-reg/text-files/doc/
+lib/nblibraries.properties
+src/conf/MANIFEST.MF
+web/META-INF/context.xml
+web/WEB-INF/web.xml
+
