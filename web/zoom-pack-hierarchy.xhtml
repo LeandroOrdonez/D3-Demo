@@ -5,11 +5,11 @@
     <h:head>
         <title>Zoomable circle packing view</title>
         <link rel="stylesheet" type="text/css" href="css/styles.css" /> 
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script src="https://rawgithub.com/leafo/sticky-kit/v1.0.2/jquery.sticky-kit.min.js"></script>
-        <script src="http://d3js.org/d3.v3.min.js"></script>
-        <script>
-            
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <!--<script type="text/javascript" src="https://rawgithub.com/leafo/sticky-kit/v1.0.2/jquery.sticky-kit.min.js"></script>-->
+        <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+        <script type="text/javascript">
+
             jQuery.fn.d3Click = function() {
                 this.each(function(i, e) {
                     var evt = document.createEvent("MouseEvents");
@@ -17,7 +17,9 @@
                     e.dispatchEvent(evt);
                 });
             };
-            //<![CDATA[
+            //$(document).ready(function (){
+            //    $("#indexRightColumn").stick_in_parent({offset_top: 90});
+            //});            
             var cbpAnimatedHeader = (function() {
 
                 var docElem = document.documentElement,
@@ -25,6 +27,7 @@
                         didScroll = false,
                         changeHeaderOn = 1;
                 function init() {
+
                     window.addEventListener('scroll', function(event) {
                         if (!didScroll) {
                             didScroll = true;
@@ -50,11 +53,11 @@
 
                 init();
             })();
-            //]]>
-            $(document).ready(function() {
-                $("#indexRightColumn").stick_in_parent({offset_top: 70});
-            });
-            
+
+            //$(document).ready(function() {
+
+            //});
+
         </script>
 
     </h:head>
@@ -78,7 +81,7 @@
                     //<![CDATA[
                     var marginX = 10, marginY = 10,
                             outerDiameter = $('#indexLeftColumn').width(),
-                            innerDiameter = outerDiameter - marginX - marginY;
+                            innerDiameter = (outerDiameter - marginX - marginY)*0.85;
                     //console.log(outerDiameter + ', ' + innerDiameter);
                     var x = d3.scale.linear()
                             .range([0, innerDiameter]);
@@ -196,7 +199,8 @@
                 </script>
             </div>
             <div id="indexRightColumn">
-                    <h3>Category</h3>
+                <h3>Category N</h3>
+                <img src="img/tagCloud.png" alt="Category term cloud" style="max-width:100% !important; height:auto; display:block;"/>
                 <!--<div class="panel">
                     <div class="front card">
                         <h3>Category</h3>
@@ -205,6 +209,10 @@
                         <h3>Operation</h3>
                     </div>
                 </div>-->
+                <h4>Similar Categories: </h4>
+                <a href="#">Category 1</a>|
+                <a href="#">Category 2</a>|
+                <a href="#">Category 3</a>
             </div>
             <div id="footer">
                 <a href="#">Universidad del Cauca | Telematics Engineering Group</a>
