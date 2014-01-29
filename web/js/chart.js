@@ -34,6 +34,8 @@ function drawBarChart(element) {
     var gridLabelHeight = 18; // space reserved for gridline labels
     var gridChartOffset = 3; // space between start of grid and first bar
     var maxBarWidth = 200; // width of the bar with the max value
+    
+    var xAxisLabelOffset = 20;
 
 // accessor functions 
     var barLabel = function(d) {
@@ -59,12 +61,33 @@ function drawBarChart(element) {
     var x = d3.scale.linear().domain([0, d3.max(sortedData, barValue)]).range([0, maxBarWidth]);
 // svg container element
     d3.selectAll('#chart svg').remove(); //removing previous charts
+    var chartWidth = maxBarWidth + barLabelWidth + valueLabelWidth;
+    var chartHeight = gridLabelHeight + gridChartOffset + xAxisLabelOffset + sortedData.length * barHeight;
     var chart = d3.select('#chart').append("svg")
-            .attr('width', maxBarWidth + barLabelWidth + valueLabelWidth)
-            .attr('height', gridLabelHeight + gridChartOffset + sortedData.length * barHeight);
+            .attr('width', chartWidth)
+            .attr('height', chartHeight);
+    
+// chart axis labels
+    chart.append("text")
+            .attr("transform", "translate(" + (chartWidth / 2) + " ," + 10 + ")")
+            .attr("class", "chart-label")
+            .style("text-anchor", "middle")
+            .style("font-weight", "bold")
+            .text("Term Probability");
+    
+    chart.append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("class", "chart-label")
+        .attr("y", 20)
+        .attr("x", 0 - (chartHeight / 2))
+        .attr("dy", "1em")
+        .style("text-anchor", "middle")
+        .style("font-weight", "bold")
+        .text("Terms");
+    
 // grid line labels
     var gridContainer = chart.append('g')
-            .attr('transform', 'translate(' + barLabelWidth + ',' + gridLabelHeight + ')');
+            .attr('transform', 'translate(' + barLabelWidth + ',' + (gridLabelHeight + xAxisLabelOffset) + ')');
     gridContainer.selectAll("text").data(x.ticks(4)).enter().append("text")
             .attr("class", "chart-label")
             .attr("x", x)
@@ -80,7 +103,7 @@ function drawBarChart(element) {
             .style("stroke", "#ccc");
 // bar labels
     var labelsContainer = chart.append('g')
-            .attr('transform', 'translate(' + (barLabelWidth - barLabelPadding) + ',' + (gridLabelHeight + gridChartOffset) + ')');
+            .attr('transform', 'translate(' + (barLabelWidth - barLabelPadding) + ',' + (gridLabelHeight + xAxisLabelOffset + gridChartOffset) + ')');
     labelsContainer.selectAll('text').data(sortedData).enter().append('text')
             .attr("class", "chart-label")
             .attr('y', yText)
@@ -91,7 +114,7 @@ function drawBarChart(element) {
             .text(barLabel);
 // bars
     var barsContainer = chart.append('g')
-            .attr('transform', 'translate(' + barLabelWidth + ',' + (gridLabelHeight + gridChartOffset) + ')');
+            .attr('transform', 'translate(' + barLabelWidth + ',' + (gridLabelHeight + xAxisLabelOffset + gridChartOffset) + ')');
     barsContainer.selectAll("rect").data(sortedData).enter().append("rect")
             .attr('y', y)
             .attr('height', yScale.rangeBand())
